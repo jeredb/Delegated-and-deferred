@@ -1,0 +1,1 @@
+Originally developed by Guillaume Cerquant Copyright © 2007, but sadly offline. This is for posterity only.
