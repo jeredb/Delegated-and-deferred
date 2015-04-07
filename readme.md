@@ -106,7 +106,9 @@ If you don't follow the above, I can't guarantee that you will not have data los
 * Improved: documentation, and included in script
 * Removed: Delegated.scpt - to cut down on confusion
 * Improved: Added `.png` icon to project, also added icon to file (Not sure it will work)
+
 ### 2.0 - 20150403
+
 * Fixed: Squashed bug that would end script if setDeferredDate was true and the original task had no defer date
 * Fixed: Modified delegated and waiting task creation so only relevant properties are copied from original task
 * Fixed: Projects cannot be selected as the target of this script
