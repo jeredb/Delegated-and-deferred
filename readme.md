@@ -15,67 +15,67 @@ The script should create delegated and waiting tasks based of the original, and 
 ### Email related
 
 - `mailSubject`
-    The email subject line.  
-    Default: "Delegated Task from Jered Benoit: "
+	-The email subject line.  
+	- Default: "Delegated Task from Jered Benoit: "  
 - `sendToOmnifocus`
-    Should a link be included in the email that will allow the receiver to add the task to their OmniFocus?
-    Default: true
-		*Must be `true` or `false`*
+	- Should a link be included in the email that will allow the  receiver to add the task to their OmniFocus?  
+	- Default: true  
+	- *Must be `true` or `false`*  
 - `openWaitingInOmniFocus` 
-    Should a link to the waiting task in the sender's OmniFocus be included in the email?
-    Default: true
-		*Must be `true` or `false`*
+	- Should a link to the waiting task in the sender's OmniFocus be included in the email?  
+	- Default: true  
+	- *Must be `true` or `false`*  
 - `openDelegatedInOmniFocus` 
-    Should a link to the delegated task in the sender's Omnifocus be included in the sender's OmniFocus be included in the email? 
-    Default: true
-		*Must be `true` or `false`*
+	- Should a link to the delegated task in the sender's Omnifocus be included in the sender's OmniFocus be included in the email?   
+	- Default: true  
+	- *Must be `true` or `false`*  
 
 ### OmniFocus related
 
 - `waitingContext` 
-    The OmniFocus context for waiting tasks
-    Default: "waiting"
+	- The OmniFocus context for waiting tasks  
+	- Default: "waiting"  
 - `delegatedContext` 
-    The OmniFocus context for delegated tasks
-    Default: "delegated"
+	- The OmniFocus context for delegated tasks  
+	- Default: "delegated"  
 
 ### Task related
 
 - `waitingPrefix` 
-    The prefix for a waiting task name
-    Default: "Waiting For: "
+	- The prefix for a waiting task name  
+	- Default: "Waiting For: "  
 - `delegatedPrefix` 
-    The prefix for a delegated task name
-    Default: "Follow Up with "
+	- The prefix for a delegated task name  
+	- Default: "Follow Up with "  
 - `defaultDelegated` 
-    The default person to be delegated to
-    Default: "Someone"
+	- The default person to be delegated to  
+	- Default: "Someone"  
 - `defaultDefer` 
-    The default number of days to defer the task
-    Default: "1"
-		*Must be an integer*
+	- The default number of days to defer the task  
+	- Default: "1"  
+	- *Must be an integer*  
 
 ### Date related
 
-- `copyDueDateToWaiting` 
-    Should the due date of the original task be copied to the waiting task?
-    Default: true
-		*Must be `true` or `false`*
-- `setDelegatedDeferredDate` 
-    Should the delegated task be assigned a defer date?
-    Default: true
-		*Must be `true` or `false`*
-- `setDelegatedDue` 
-    Should the due date of the original task be copied to the delegated task?
-    Default: true
-		*Must be `true` or `false`*
+- `copyDueDateToWaiting`  
+	- Should the due date of the original task be copied to the waiting task?  
+	- Default: true  
+	- *Must be `true` or `false`*  
+- `setDelegatedDeferredDate`  
+	- Should the delegated task be assigned a defer date?  
+	- Default: true  
+	- *Must be `true` or `false`*  
+- `setDelegatedDue`  
+	- Should the due date of the original task be copied to the delegated task?  
+	- Default: true  
+	- *Must be `true` or `false`*  
 
 ### Notification related
 
-- `sendNotifcation` 
-    Should a Notification Center notification be sent when the script completes?    
-    Default: true
-		*Must be `true` or `false`*
+- `sendNotifcation`  
+	- Should a Notification Center notification be sent when the script completes?
+	- Default: true  
+	- *Must be `true` or `false`*  
 
 ## Using The Script
 
