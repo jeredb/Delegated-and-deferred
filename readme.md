@@ -114,8 +114,12 @@ If you don't follow the above, I can't guarantee that you will not have data los
 * Improved: Refactored code for reusability
 * Improved: Moved most code to handlers
 * Improved: Delegated task now has date that original task was delegated in the task note
+
 ### 1.1 - 20140922 
+
 * Removed dependancies on other scripts, probably not as elegant as having them, but it works.
 * Fixed [Issue #1](https://github.com/jeredb/Delegated/issues/1) - mailContent is not defined (-2753), some how the task was being completed before the mail message could be generated
+
 ### 1.0  - 20113415
+
 * Initial version
