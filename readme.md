@@ -15,7 +15,7 @@ The script should create delegated and waiting tasks based of the original, and 
 ### Email related
 
 - `mailSubject`
-	-The email subject line.  
+	- The email subject line.  
 	- Default: "Delegated Task from Jered Benoit: "  
 - `sendToOmnifocus`
 	- Should a link be included in the email that will allow the  receiver to add the task to their OmniFocus?  
