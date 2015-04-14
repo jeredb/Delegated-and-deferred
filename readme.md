@@ -107,6 +107,7 @@ If you don't follow the above, I can't guarantee that you will not have data los
 ## Version History
 
 ### 2.1 - 20150413
+* Improved: Inclusion of task name in email subject 
 * Fixed: [Issue 2](https://github.com/jeredb/Delegated-and-deferred/issues/2)
 
   > One issue I’m having with the script is the subject line it assigns to the email. I’ve examined the script and can’t see where the problem is coming from, and I’ve quit and restarted both Mail and OmniFocus 2 Pro, and keep having the same problem, as follows: When I run the script in OmniFocus, I finally get to the email that has a subject line beginning with Delegated Task from ----. (I changed your name to mine in the script.) But instead of then continuing with the name of the task being delegated, each time I run the script it just adds the name of the new task to the list of all the prior tasks. So I get something like this in the email subject line: “Delegated Task from ----: test action 1test action 2test action3test action 4” Each time I run a new test, it adds the name of the new test action at the end of that list.
