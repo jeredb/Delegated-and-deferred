@@ -1,6 +1,6 @@
 # Delegate and Defer.scpt
 
-### Version 2.0.1
+### Version 2.1
 ### by Jered Benoit of [jeredb.com](http://jeredb.com)
 ### latest version available at [https://github.com/jeredb/Delegated-and-deferred](https://github.com/jeredb/Delegated-and-deferred)
 
@@ -14,7 +14,7 @@ The script should create delegated and waiting tasks based of the original, and 
 
 ### Email related
 
-- `mailSubject`
+- `mailSubjectPrefix`
 	- The email subject line.  
 	- Default: "Delegated Task from Jered Benoit: "  
 - `sendToOmnifocus`
@@ -87,6 +87,10 @@ This script can also be run from the System AppleScript menu. To activate the Sy
 
 Lastly, if you understand applications like Alfred, LaunchBar, FastScripts or any other type of application, you can use this script there, but you probably already know how to do that.
 
+## Changing the icon
+
+Follow the steps [here](http://osxdaily.com/2013/06/04/change-icon-mac/) to change the icon of the AppleScript, this will show up in OmniFocus and make everything beautiful.
+
 ## Where things can go sideways
 
 - You must have the Pro version of OmniFocus 2
@@ -101,6 +105,13 @@ Lastly, if you understand applications like Alfred, LaunchBar, FastScripts or an
 If you don't follow the above, I can't guarantee that you will not have data loss, or that it will even work. I have tried to catch as many issues as I possibly can, but I am not perfect.
 
 ## Version History
+
+### 2.1 - 20150413
+* Fixed: [Issue 2](https://github.com/jeredb/Delegated-and-deferred/issues/2)
+  > One issue I’m having with the script is the subject line it assigns to the email. I’ve examined the script and can’t see where the problem is coming from, and I’ve quit and restarted both Mail and OmniFocus 2 Pro, and keep having the same problem, as follows: When I run the script in OmniFocus, I finally get to the email that has a subject line beginning with Delegated Task from ----. (I changed your name to mine in the script.) But instead of then continuing with the name of the task being delegated, each time I run the script it just adds the name of the new task to the list of all the prior tasks. So I get something like this in the email subject line: “Delegated Task from ----: test action 1test action 2test action3test action 4” Each time I run a new test, it adds the name of the new test action at the end of that list.
+* Improved: Documentation on how to change icon
+* Improved: sendNotification spelling - doh!
+* Added: UTF-8 version of the script
 
 ### 2.0.1 - 20150407
 * Improved: documentation, and included in script
