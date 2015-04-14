@@ -133,11 +133,14 @@ If you don't follow the above, I can't guarantee that you will not have data los
 ## Version History
 
 ### 2.1 - 20150413
+* Improved: Inclusion of task name in email subject 
 * Fixed: [Issue 2](https://github.com/jeredb/Delegated-and-deferred/issues/2)
+
   > One issue I’m having with the script is the subject line it assigns to the email. I’ve examined the script and can’t see where the problem is coming from, and I’ve quit and restarted both Mail and OmniFocus 2 Pro, and keep having the same problem, as follows: When I run the script in OmniFocus, I finally get to the email that has a subject line beginning with Delegated Task from ----. (I changed your name to mine in the script.) But instead of then continuing with the name of the task being delegated, each time I run the script it just adds the name of the new task to the list of all the prior tasks. So I get something like this in the email subject line: “Delegated Task from ----: test action 1test action 2test action3test action 4” Each time I run a new test, it adds the name of the new test action at the end of that list.
-* Improved: Documentation on how to change icon
-* Improved: sendNotification spelling - doh!
-* Added: UTF-8 version of the script
+
+* Improved: Documentation on how to change icon - [Issue 4](https://github.com/jeredb/Delegated-and-deferred/issues/4)
+* Improved: sendNotification spelling - doh! - [Issue 3](https://github.com/jeredb/Delegated-and-deferred/issues/3)
+* Added: UTF-8 version of the script - [https://github.com/jeredb/Delegated-and-deferred/blob/master/Delegate%20and%20Defer.applescript](https://github.com/jeredb/Delegated-and-deferred/blob/master/Delegate%20and%20Defer.applescript)
 
 ### 2.0.1 - 20150407
 * Improved: documentation, and included in script
@@ -162,7 +165,6 @@ If you don't follow the above, I can't guarantee that you will not have data los
 ### 1.0  - 20113415
 
 * Initial version
-
 *)
 
 -- Variables
